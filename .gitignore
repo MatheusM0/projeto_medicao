@@ -1,0 +1,19 @@
+#Ambientes virtuais
+venv/
+env/
+.env
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Dataset e imagens locais
+data/
+*.jpg
+*.png
+*.zip
+*.pt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
