@@ -17,3 +17,6 @@ data/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+
+# Download Dataset
+download_data.py
