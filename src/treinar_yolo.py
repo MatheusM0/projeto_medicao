@@ -16,11 +16,12 @@ if __name__ == '__main__':
     
     results = model.train(
         data=caminho_yaml,
-        epochs=50,          
-        imgsz=640,          
-        batch=8,           # Reduzido para 8 para não estourar a memória do seu PC
-        name='medicao_madeira_v1',
-        workers=2          # Limita as threads do processador no Windows para estabilidade
+        epochs=15,          
+        imgsz=320,          
+        batch=16,           # Reduzido para 8 para não estourar a memória do seu PC
+        name='medicao_madeira_v2_fast',
+        workers=4,          # Limita as threads do processador no Windows para estabilidade
+        cache=True 
     )
 
     print("\nTreinamento concluído com sucesso!")
